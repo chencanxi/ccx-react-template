@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    // 支持 DOM API、ESNext 语法
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    // 模块/目标都采用 ESNext，让 Vite 处理
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "node",
+    // 打开严格模式可提升类型安全
+    "strict": true,
+    // 使用新的 JSX 转换
+    "jsx": "react-jsx",
+    // 允许从 JS 到 TS 的渐进迁移
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"]
+}
